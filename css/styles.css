@@ -1,0 +1,109 @@
+/*The Header*/
+.navigation {
+	position: relative;
+	height: 100px;
+	width: 1180px;
+	margin: 0 auto;
+	line-height: 114px;
+	border-bottom: 1px solid #E5e5e5
+}
+.navigation h1{
+	position: absolute;
+	display: inline-block;
+	list-style: none;
+	top: -20%;
+	right: 98%
+}
+.navigation li{
+	display: inline-block;
+	list-style: none;
+	margin: 0 20px
+}
+.navigation .active a,
+.navigation a:hover{
+	color: #ff510a;
+}
+.navigation a{
+	color: #000;
+	text-decoration: none
+}
+.head-nav{
+	max-width: 1180px;
+	margin: 0 auto
+}
+.list-nav,
+.login-nav,
+.search-icon{
+	position: absolute;
+	display: inline-block;
+	list-style: none;
+	bottom: -20%
+}
+.list-nav{
+	right: 53%;
+}
+.login-nav{
+	right: 0%;
+}
+.login-icon{
+	position: absolute;
+	right: 83%;
+	top: 38%
+}
+.bag-icon{
+	position: absolute;
+	right: 52%;
+	top: 38%
+}
+.list-nav,
+.login-nav,
+.login-icon,
+.bag-icon,
+.search-icon{
+	display: inline-block;
+}
+.search-icon {
+	top: 14%;
+}
+/*End of Header*/
+
+/*The Body*/
+.body{
+	max-width: 1180px;
+	margin: 0 auto
+}
+.title{
+	padding: 10% 0 10% 0;
+	text-align: center;
+	position: relative
+}
+.title h1{
+	font-family: 'sans';
+	font-size: 66px;
+	text-transform: uppercase;
+	line-height: 55px;
+	color: #000
+}
+.title p{
+	font-family: 'Georgia';
+	font-size: 24px;
+	color: #606060;
+	font-style: italic
+}
+.title a{
+	position: absolute;
+	bottom: 8%;
+	left: 42%;
+	color: #606060;
+	padding: 20px;
+	text-align: center;
+	text-decoration: none;
+	font-size: 15px;
+	text-transform: uppercase;
+	border: 1px solid #606060
+}
+.stuffed-image img{
+	padding-top: 8%;
+	max-width: 1200px
+}
+/*End of Body*/

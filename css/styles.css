@@ -180,10 +180,10 @@
 	left: 46%;
 	bottom: 0%;
 }
-.collection,
 .site,
-.shop{
-	border-right: 1px solid #E5e5e5
+.shop,
+.links{
+	border-left: 1px solid #E5e5e5
 }
 .links{
 	margin: 1% 0 0 72%;
@@ -218,3 +218,10 @@
 	font-size: 0;
 }
 /*End of Footer*/
+
+/*Men's Page*/
+.body-content{
+	max-width: 1180px;
+	margin: 0 auto
+}
+/*End of Men's Page*/

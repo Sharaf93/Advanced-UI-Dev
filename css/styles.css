@@ -224,4 +224,73 @@
 	max-width: 1180px;
 	margin: 0 auto
 }
+.breadcrumb{
+	padding-top: 3%;	
+}
+.breadcrumb a{
+	text-decoration: none;
+	margin: 20px;
+	text-transform: uppercase;
+	color: #000
+}
+.breadcrumb a:hover{
+	color: #ff510a;
+}
+.coats,
+.outerwear,
+.tshirts{
+	padding-top: 10%;
+}
+.coats h1,
+.outerwear h1,
+.tshirts h1{
+	text-transform: uppercase;
+	text-align: center
+}
+.coats p,
+.outerwear p,
+.tshirts p{
+	text-align: center;
+	font-style: italic
+}
+.coats a,
+.outerwear a,
+.tshirts a{
+	text-decoration: none;
+}
+.coats-content,
+.outerwear-content,
+.tshirts-content{
+	padding-top: 3%;
+}
+.coats-content td,
+.outerwear-content td,
+.tshirts-content td{
+	padding-left: 70px;
+	text-align: center
+}
+.coats-content tr:nth-child(2) td,
+.outerwear-content tr:nth-child(2) td,
+.tshirts-content tr:nth-child(2) td{
+	padding-top: 3%;
+	font-size: 16px;
+	font-weight: bolder
+}
+.coats-content tr:nth-child(3) td,
+.outerwear-content tr:nth-child(3) td,
+.tshirts-content tr:nth-child(3) td{
+	padding-top: 1%;
+	font-size: 14px
+}
+.coats-content a,
+.outerwear-content a,
+.tshirts-content a{
+	display: inline-block;
+	padding-bottom: 3%;
+	width: 208px;
+	height: 256px;
+	background: #fff url(../images/blanc.jpg) 50% 50% no-repeat;
+	border: 0;
+	font-size: 0
+}
 /*End of Men's Page*/

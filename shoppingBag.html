@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Shopping Bag</title>
+		<link rel="stylesheet" href="css/styles.css">
+	</head>
+	<body>
+		<header class="navigation">
+			<nav class="head-nav">
+				<h1><a href="#!" title="Home"><img src="images/logo.png"></a></h1>
+				<ul class="list-nav">
+					<li><a href="#!">Woman</a></li>
+					<li><a href="#!">Men</a></li>
+					<li><a href="#!">Kids</a></li>
+					<li><a href="#!">Coming Soon</a></li>
+					<li><a href="#!">About</a></li>
+				</ul>
+				<ul class="login-nav">
+					<li><img src="images/loginIcon.png" class="login-icon"><a href="#!">Log in</a></li>
+					<li><img src="images/bag.png" class="bag-icon"><a href="#!">Basket (0)</a></li>
+					<li><a href="#!" class="search-icon"><img src="images/searchIcon.png" class="search-icon"></a></li>
+				</ul>
+			</nav>
+		</header>
+			<div>
+				<div class="body">
+					<section class="shopping-head">
+						<h1>Your Shopping Bag</h1>
+						<p>Items reserved for limited time only</p>
+					</section>
+					<section>
+						<div class="bag-content">
+							<table>
+								<thead>
+									<tr>
+										<th>Product</th>
+										<th>Description</th>
+										<th>Color</th>
+										<th>Size</th>
+										<th>QTY</th>
+										<th>Amount</th>
+										<th>Delete</th>
+									</tr>
+								</thead>
+								<tfoot>
+									<tr>
+										<td></td>
+										<td></td>
+										<td></td>
+										<td></td>
+										<td>Subtotal:</td>
+										<td><div>&euro; 567.95</div></td>
+										<td></td>
+									</tr>
+								</tfoot>
+								<body>
+									<tr>
+										<td><a href="#!"></a></td>
+										<td><h1>Floral plimsoll</h1><p>Ref. 2514/302</p></td>
+										<td>One Color</td>
+										<td>39</td>
+										<td><div class="amount">1<button class="plus">+</button><button class="minus">-</button></div></td>
+										<td>&euro; 99.95</td>
+										<td><button class="delete">X</button></td>
+									</tr>
+									<tr>
+										<td><a href="#!"></a></td>
+										<td><h1>Coated 5 pockect trousers</h1><p>Ref. 8246/044</p></td>
+										<td>One Color</td>
+										<td>M</td>
+										<td><div class="amount">1<button class="plus">+</button><button class="minus">-</button></div></td>
+										<td>&euro; 169.00</td>
+										<td><button class="delete">X</button></td>
+									</tr>
+									<tr>
+										<td><a href="#!"></a></td>
+										<td><h1>Oversized studio blouse</h1><p>Ref. 2401/657</p></td>
+										<td>Black</td>
+										<td>S</td>
+										<td><div class="amount">2<button class="plus">+</button><button class="minus">-</button></div></td>
+										<td>&euro; 299.00</td>
+										<td><button class="delete">X</button></td>
+									</tr>
+								</body>
+							</table>
+						</div>
+					</section>
+						<div class="zigzag-button">
+							<button></button>
+						</div>
+						<section class="shipping-address">
+							<h1>Shipping Address</h1>
+							<p>All fields are required</p>
+							<form class="shipping-form">
+								<label class="delivery">Select Delivery Method</label>
+								<select class="delivery-value"><option value="dhl">DHL International - &euro; 15,00</option><option value="fedex">Fedex - &euro; 20,00</option><option value="aramex">Aramex - &euro; 25,00</option></select>
+								<label class="firstname">First Name</label>
+								<input class="firstname-input" type="text"></input>
+								<label class="lastname">Last Name</label>
+								<input class="lastname-input" type="text"></input>
+								<label class="addressl1">ADDRESS (line1)</label>
+								<input class="addressl1-input" type="text"></input>
+								<label class="addressl2">ADDRESS (line2)</label>
+								<input class="addressl2-input" type="text"></input>
+								<label class="city">City</label>
+								<input class="city-input" type="text"></input>
+								<label class="postal">Postal Code</label>
+								<input class="postal-input" type="text"></input>
+								<label class="phone">Phone Number</label>
+								<input class="phone-input" type="text"></input>
+								<label class="email">E-mail</label>
+								<input class="email-input" type="email"></input>
+								<label class="billing">Use this address for Billing</label>
+								<input class="billing-value" type="checkbox"></input>
+							</form>
+						</section>
+						<div class="zigzag-button">
+							<button></button>
+						</div>
+						<section class="payment-options">
+							<h1>Payment Options</h1>
+							<p>All fields are required</p>
+							<label class="subtotal">Subtotal: &euro; 567,95</label>
+							<label class="shipping">Shipping: &euro; 15,00</label>
+							<label class="total">Total: &euro; 582,95</label>
+							<label class="payment">Select Payment Method</label>
+							<select class="payment-value">
+								<option value="credit">Credit Card</option>
+								<option value="cash">Cash On Delivery</option>
+							</select>
+							<input type="submit" class="order-button" value="order"></input>
+						</section>
+				</div>
+			</div>
+		<footer>
+			<div class="footer">
+				<div class="footer-content">
+					<ul class="collection">Collection
+						<li><a href="#!"><small>Woman (1725)</small></a></li>
+						<li><a href="#!"><small>Men (635)</small></a></li>
+						<li><a href="#!"><small>Kids (2514)</small></a></li>
+						<li><a href="#!"><small>Coming Soon (76)</small></a></li>
+					</ul>
+					<ul class="site">Site
+						<li><a href="#!"><small>Terms of Service</small></a></li>
+						<li><a href="#!"><small>Privacy Policy</small></a></li>
+						<li><a href="#!"><small>Copyright Policy</small></a></li>
+						<li><a href="#!"><small>Press Kit</small></a></li>
+						<li><a href="#!"><small>Support</small></a></li>
+					</ul>
+					<ul class="shop">Shop
+						<li><a href="#!"><small>About us</small></a></li>
+						<li><a href="#!"><small>Shipping Methods</small></a></li>
+						<li><a href="#!"><small>Career</small></a></li>
+						<li><a href="#!"><small>Contact</small></a></li>
+					</ul>
+					<div class="links">
+						<h1>Social</h1>
+						<p><small>Shopper is made with love in Warsaw, </small></p>
+						<p><small>2014 &copy; All rights reserved. El Passion</small></p>
+						<a href="#!" class="links-img"><img src="images/twitter.png"></a>
+						<a href="#!" class="links-img"><img src="images/facebook.png"></a>
+						<a href="#!" class="links-img"><img src="images/instagram.png"></a>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</body>
+</html>

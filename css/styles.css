@@ -294,3 +294,127 @@
 	font-size: 0
 }
 /*End of Men's Page*/
+
+/*Shopping Bag's page*/
+.shopping-head,
+.shipping-address{
+	padding: 6% 0 0 0;
+	text-align: center
+}
+.shopping-head h1,
+.shipping-address h1{
+	font-size: 48px;
+	font-weight: 400;
+	text-transform: uppercase;
+	color: #000
+}
+.shopping-head p,
+.shipping-address p{
+	padding: 0 0 6% 0;
+	font-family: sans-serif;
+	font-size: 20px;
+	color: #606060;
+	font-style: italic	
+}
+.bag-content h1{
+	font-size: 14px;
+	text-transform: uppercase
+}
+.bag-content p{
+	line-height: 10%;
+	font-family: sans-serif;
+	font-size: #606060;
+	font-style: italic
+}
+.bag-content a{
+	display: inline-block;
+	width: 100px;
+	height: 100px;
+	background: #fff url(../images/blanc2.jpg) 50% 50% no-repeat;
+	border: 0;
+	font-size: 0
+}
+.bag-content tr{
+	border-bottom: 1px solid #E5e5e5
+}
+.bag-content th{
+	padding-bottom: 1%;
+	text-transform: uppercase;
+	font-family: sans-serif;
+	font-size: 12px;
+	color: #606060
+}
+.bag-content tfoot{
+	padding-top: 3%;
+	background-color: #F7F7F7
+}
+.bag-content tfoot tr{
+	border: 0;
+}
+.bag-content td{
+	padding-top: 1%;
+	padding-bottom: 1%
+}
+.bag-content th:nth-child(1){
+	padding-right: 13%;
+}
+.bag-content th:nth-child(2){
+	padding-right: 60%;
+}
+.bag-content th:nth-child(3),
+.bag-content th:nth-child(4),
+.bag-content th:nth-child(5),
+.bag-content th:nth-child(6){
+	padding-right: 15%;
+}
+.bag-content th:nth-child(7){
+	padding-right: 5%;
+}
+.amount{
+	position: relative;
+}
+.plus{
+	position: absolute;
+	bottom: 55%;
+	left: 10%
+}
+.minus{
+	position: absolute;
+	top: 50%;
+	left: 10%
+}
+.plus,
+.minus{
+	width: 20px;
+	height: 20px;
+	color: white;
+	background-color: black;
+	border: 0
+}
+.delete{
+	background-color: white;
+	border: 0
+}
+.zigzag-button{
+	padding-top: 5%;
+	padding-bottom: 5%
+}
+.zigzag-button button{
+	padding-right: 100%;
+	width: 100px;
+	height: 20px;
+	background: #fff url(../images/zigzag.jpg) 50% 50% no-repeat;
+	border: 0;
+	font-size: 0
+}
+.shipping-address{
+	border: 1px solid #E5e5e5;
+}
+.shipping-form{
+	margin: 0 auto;
+	max-width: 580px;
+	height: 700px;
+	position: relative
+}
+
+/*End of Shopping Bag's page*/

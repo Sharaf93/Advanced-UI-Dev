@@ -297,19 +297,22 @@
 
 /*Shopping Bag's page*/
 .shopping-head,
-.shipping-address{
+.shipping-address,
+.payment-options{
 	padding: 6% 0 0 0;
 	text-align: center
 }
 .shopping-head h1,
-.shipping-address h1{
+.shipping-address h1,
+.payment-options{
 	font-size: 48px;
 	font-weight: 400;
 	text-transform: uppercase;
 	color: #000
 }
 .shopping-head p,
-.shipping-address p{
+.shipping-address p,
+.payment-options p{
 	padding: 0 0 6% 0;
 	font-family: sans-serif;
 	font-size: 20px;
@@ -407,7 +410,8 @@
 	border: 0;
 	font-size: 0
 }
-.shipping-address{
+.shipping-address,
+.payment-options{
 	border: 1px solid #E5e5e5;
 }
 .shipping-form{
@@ -416,5 +420,207 @@
 	height: 700px;
 	position: relative
 }
-
+.delivery{
+	text-transform: uppercase;
+	font-family: sans-serif;
+	color: #606060;
+	position: absolute;
+	left: 0;
+	top: 0
+}
+.delivery-value,
+.addressl1-input,
+.addressl2-input{
+	width: 580px;
+	height: 42px;
+	border: 2px solid #E5e5e5
+}
+.delivery-value{
+	background-color: white;
+	position: absolute;
+	top: 4%;
+	left: 0
+}
+.firstname{
+	position: absolute;
+	left: 0;
+	top: 15%
+}
+.firstname,
+.lastname,
+.addressl1 span,
+.addressl2 span,
+.city,
+.postal,
+.phone,
+.email{
+	text-transform: uppercase;
+	font-family: sans-serif;
+	color: #606060
+}
+.firstname-input{
+	position: absolute;
+	left: 0;
+	top: 19
+}
+.firstname-input,
+.lastname-input,
+.city-input,
+.postal-input,
+.phone-input,
+.email-input{
+	width: 280px;
+	height: 42px;
+	border: 2px solid #E5e5e5
+}
+.lastname{
+	position: absolute;
+	right: 33%;
+	top: 15%
+}
+.addressl1{
+	position: absolute;
+	top: 30%;
+	left: 0
+}
+.addressl1,
+.addressl2,
+.billing{
+	font-family: sans-serif;
+	color: #606060
+}
+.addressl1-input{
+	position: absolute;
+	top: 34%;
+	left: 0
+}
+.addressl2{
+	position: absolute;
+	top: 45%;
+	left: 0
+}
+.addressl2-input{
+	position: absolute;
+	top: 49%;
+	left: 0
+}
+.city{
+	position: absolute;
+	top: 60%;
+	left: 0
+}
+.city-input{
+	position: absolute;
+	top: 64%;
+	left: 0
+}
+.postal{
+	position: absolute;
+	right: 30%;
+	top: 60%
+}
+.postal-input{
+	position: absolute;
+	top: 64%;
+	left: 0
+}
+.phone{
+	position: absolute;
+	top: 75%;
+	left: 0
+}
+.phone-input{
+	position: absolute;
+	top: 79%;
+	left: 0
+}
+.email{
+	position: absolute;
+	right: 38%;
+	top: 75%
+}
+.email-input{
+	position: absolute;
+	top: 79%;
+	right: 0
+}
+.billing{
+	position: absolute;
+	left: 38%;
+	top: 90%
+}
+.billing-value{
+	position: absolute;
+	left: 34%;
+	top: 90%
+}
+.payment-options{
+	margin: 0 auto;
+	height: 700px;
+	position: relative
+}
+.subtotal{
+	position: absolute;
+	font-size: 20px;
+	font-family: sans-serif;
+	color: #606060;
+	top: 40%;
+	right: 0;
+	width: 100%;
+	text-align: center
+}
+.shipping{
+	position: absolute;
+	font-size: 20px;
+	font-family: sans-serif;
+	color: #606060;
+	top: 45%;
+	right: 0;
+	width: 100%;
+	text-align: center
+}
+.total{
+	position: absolute;
+	font-size: 20px;
+	font-family: sans-serif;
+	color: #F48240;
+	top: 50%;
+	right: 0;
+	width: 100%;
+	text-align: center
+}
+.payment{
+	position: absolute;
+	text-transform: uppercase;
+	font-size: 16px;
+	font-family: sans-serif;
+	color: #606060;
+	top: 65%;
+	left: 26%
+}
+.payment-value{
+	font-family: sans-serif;
+	color: #606060;
+	background-color: white;
+	position: absolute;
+	top: 70%;
+	left: 26%;
+	width: 580px;
+	height: 42px;
+	border: 2px solid #E5e5e5
+}
+.payment-value option[value="credit"]{
+	background-image: url(./images/visa.png);
+}
+.order-button{
+	text-transform: uppercase;
+	color: white;
+	position: absolute;
+	width: 194px;
+	height: 51px;
+	background-color: #F48240;
+	border: 0;
+	top: 80%;
+	left: 41%
+}
 /*End of Shopping Bag's page*/

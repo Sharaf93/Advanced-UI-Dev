@@ -359,19 +359,19 @@
 	padding-bottom: 1%
 }
 .bag-content th:nth-child(1){
-	padding-right: 13%;
+	padding-right: 70px;
 }
 .bag-content th:nth-child(2){
-	padding-right: 60%;
+	padding-right: 350px;
 }
 .bag-content th:nth-child(3),
 .bag-content th:nth-child(4),
 .bag-content th:nth-child(5),
 .bag-content th:nth-child(6){
-	padding-right: 15%;
+	padding-right: 80px;
 }
 .bag-content th:nth-child(7){
-	padding-right: 5%;
+	padding-right: 100px;
 }
 .amount{
 	position: relative;
@@ -397,6 +397,9 @@
 .delete{
 	background-color: white;
 	border: 0
+}
+.subtotals{
+	color: #F48240;
 }
 .zigzag-button{
 	padding-top: 5%;
